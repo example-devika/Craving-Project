@@ -12,7 +12,7 @@ const [data,setData]=useState({
     lastName:"",
     email:"",
     street:"",
-    city:"",state:"",zipCode:"",country:"",
+    city:"",state:"",country:"",
     phone:""
   })
  
@@ -84,14 +84,7 @@ else{
 
         </div>
         <div className="multifields">
-      <input
-      type="text"
-      name="zipCode"
-      value={data.zipCode}
-      onChange={onchangeHandler}
-      placeholder="ZipCode"
-      required
-    />
+    
           <input required type="text" placeholder='Country' onChange={onchangeHandler} name="country" value={data.country} />
 
         </div>
