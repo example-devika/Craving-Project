@@ -84,7 +84,7 @@ else{
 
         </div>
         <div className="multifields">
-          <input required type="text" onChange={onchangeHandler} name="zipCode" value={data.zipCode} placeholder='ZipCode'/>
+          <input required type="number" onChange={onchangeHandler} name="zipCode" value={data.zipCode} placeholder='ZipCode'/>
           <input required type="text" placeholder='Country' onChange={onchangeHandler} name="country" value={data.country} />
 
         </div>
